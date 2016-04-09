@@ -1,3 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QSIC | About</title>
+  <link rel="stylesheet" href="/static/css/normalize.css" />
+  <link rel="stylesheet" href="/static/css/foundation.css" />
+  <link rel="stylesheet" href="/static/css/foundation-icons/foundation-icons.css" />
+  <link rel="stylesheet" href="/static/css/qsic.css" />
+  <link rel="stylesheet" href="/static/css/font-awesome.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/vendor/modernizr.min.js"></script>
+  
+</head>
+<body>
+
+  
+    <!-- Navigation -->
+    <nav class="top-bar" data-topbar>
+      <section class="top-bar-section">
+        <ul class="title-area">
+          <!-- Title Area -->
+          <li>
+            <a href="/" id="root_link">
+              <span class="show-for-medium-up">
+                The Queen's Secret Improv Club
+              </span>
+              <span class="show-for-small">
+                QSIC
+              </span>
+            </a>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+        </ul>
+      </section>
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="divider"></li>
+          <li>
+            <a href="/performers/all.html">Performers</a>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a data-dropdown="nav_dropdown_teams" data-options="is_hover:true" href="">Teams</a>
+            <ul id="nav_dropdown_teams" class="f-dropdown" data-dropdown-content>
+              <li><a href="/groups/house-teams.html">House Teams</a></li>
+              <li><a href="/groups/visitors.html">Visitors</a></li>
+            </ul>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <a href="/about.html">About QSIC</a>
+          </li>
+        </ul>
+      </section>
+    </nav>
+
+    <!-- End Top Bar -->
+
   <div class="row">
     <div class="small-12 columns">
       <br>
@@ -42,3 +103,40 @@
   </section>
     </div>
   </div>
+    <footer class="row">
+      <div class="small-12 columns">
+        <hr>
+        <div class="row">
+          <div class="small-12 columns">
+            <ul class="inline-list right">
+              <li>
+                <a href="https://www.facebook.com/queenssecretimprovclub" class="facebook">
+                  <i class="fi-social-facebook"></i>
+                </a>
+              </li>
+              <li>© 2014 QSIC</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/vendor/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50932209-1', 'queens-secret.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
