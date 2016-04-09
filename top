@@ -4,11 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>QSIC | About</title>
-  <link rel="stylesheet" href="//qsic-data.s3.amazonaws.com/static/css/normalize.css" />
-  <link rel="stylesheet" href="//qsic-data.s3.amazonaws.com/static/css/foundation.css" />
-  <link rel="stylesheet" href="//qsic-data.s3.amazonaws.com/static/css/foundation-icons/foundation-icons.css" />
-  <link rel="stylesheet" href="//qsic-data.s3.amazonaws.com/static/css/qsic.css" />
-  <link rel="stylesheet" href="//qsic-data.s3.amazonaws.com/static/css/font-awesome.css">
+  <link rel="stylesheet" href="/static/css/normalize.css" />
+  <link rel="stylesheet" href="/static/css/foundation.css" />
+  <link rel="stylesheet" href="/static/css/foundation-icons/foundation-icons.css" />
+  <link rel="stylesheet" href="/static/css/qsic.css" />
+  <link rel="stylesheet" href="/static/css/font-awesome.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/vendor/modernizr.min.js"></script>
   
 </head>
@@ -39,28 +39,14 @@
         <ul class="right">
           <li class="divider"></li>
           <li>
-            <a data-dropdown="nav_dropdown_shows" data-options="is_hover:true" href="#">Shows</a>
-            <ul id="nav_dropdown_shows" class="tiny f-dropdown" data-dropdown-content>
-              <li><a href="/events/up-next.html">Up Next at QSIC!</a></li>
-              <li><a href="/events/week/current.html">Shows By Week</a></li>
-            </ul>
+            <a href="/performers/all.html">Performers</a>
           </li>
           <li class="divider"></li>
           <li>
-            <a data-dropdown="nav_dropdown_performers" data-options="is_hover:true" href="#">Performers</a>
-            <ul id="nav_dropdown_performers" class="f-dropdown" data-dropdown-content>
-              <li><a href="/performers/current.html">Current Performers</a></li>
-              <li><a href="/performers/past.html">Past Performers</a></li>
-            </ul>
-          </li>
-          <li class="divider"></li>
-          <li>
-            <a data-dropdown="nav_dropdown_teams" data-options="is_hover:true"
-               href="">Teams</a>
+            <a data-dropdown="nav_dropdown_teams" data-options="is_hover:true" href="">Teams</a>
             <ul id="nav_dropdown_teams" class="f-dropdown" data-dropdown-content>
-              <li><a href="/groups/house-teams/current.html">Current House Teams</a></li>
-              <li><a href="/groups/visiting.html">Visiting Teams</a></li>
-              <li><a href="/groups/all/past.html">Past Teams</a></li>
+              <li><a href="/groups/house-teams.html">House Teams</a></li>
+              <li><a href="/groups/visitors.html">Visitors</a></li>
             </ul>
           </li>
           <li class="divider"></li>

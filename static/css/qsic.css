@@ -1,0 +1,159 @@
+/* line 1, _settings.scss */
+p {
+  line-height: 20px;
+  font-size: 16px;
+}
+
+/* line 1, _general.scss */
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 2, _nav.scss */
+nav a#root_link {
+  background-image: url("/static/images/qsic-logo-queen-height-45px.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+/* line 7, _nav.scss */
+nav a#root_link span {
+  padding-left: 50px;
+}
+/* line 12, _nav.scss */
+nav ul.f-dropdown li {
+  width: 100%;
+}
+
+/* line 2, _footer.scss */
+footer ul {
+  font-size: 12px;
+}
+/* line 4, _footer.scss */
+footer ul li {
+  vertical-align: baseline;
+}
+/* line 8, _footer.scss */
+footer ul li a i {
+  display: inline-block;
+  font-size: 24px;
+}
+/* line 13, _footer.scss */
+footer ul li a.facebook {
+  position: relative;
+  top: -10px;
+}
+
+/* line 22, _week.scss */
+.week {
+  font-size: 0;
+}
+/* line 25, _week.scss */
+.week .nav {
+  display: inline-block;
+}
+/* line 28, _week.scss */
+.week .nav a {
+  font-size: 20px;
+  display: inline-block;
+}
+/* line 32, _week.scss */
+.week .nav a:hover {
+  color: purple;
+}
+/* line 38, _week.scss */
+.week .day {
+  margin: 0;
+  padding: 1px;
+  width: 135px;
+  min-height: 300px;
+  display: inline-block;
+}
+/* line 45, _week.scss */
+.week .day .header {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom-color: #aaaaff;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-width: 2px;
+  margin-bottom: 5px;
+}
+/* line 55, _week.scss */
+.week .day .content {
+  display: table;
+  width: 100%;
+}
+/* line 59, _week.scss */
+.week .day .content ul {
+  list-style: none;
+  margin: 0;
+  font-size: 12px;
+}
+/* line 64, _week.scss */
+.week .day .content ul .event {
+  border-left-color: #aaaaff;
+  border-left-style: solid;
+  border-left-width: 4px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 71, _week.scss */
+.week .day .content ul .event .title {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 76, _week.scss */
+.week .day .content ul .event .performance {
+  text-align: left;
+  padding-left: 5px;
+  line-height: 16px;
+}
+/* line 6, _week.scss */
+.week .day .content ul .event .performance .time {
+  display: block;
+}
+/* line 10, _week.scss */
+.week .day .content ul .event .performance a {
+  padding-left: 10px;
+}
+/* line 83, _week.scss */
+.week .day .content ul .performance {
+  text-align: left;
+  padding-left: 5px;
+  line-height: 16px;
+  margin-bottom: 5px;
+}
+/* line 6, _week.scss */
+.week .day .content ul .performance .time {
+  display: block;
+}
+/* line 10, _week.scss */
+.week .day .content ul .performance a {
+  padding-left: 10px;
+}
+/* line 89, _week.scss */
+.week .day .content .dark {
+  text-align: center;
+  font-size: 12px;
+  height: 50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* line 96, _week.scss */
+.week .day .content .dark img {
+  height: 10px;
+  width: 10px;
+}
+
+/* line 4, events.scss */
+ul.example-orbit a {
+  color: #ffffff;
+}
+
+/* line 3, _group_list.scss */
+section.house_team_list ul li {
+  padding-bottom: 5px;
+}
