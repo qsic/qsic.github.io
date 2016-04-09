@@ -39,7 +39,7 @@ def main():
         o = urlparse(img_url)
         img_path = o.path.lstrip('/')
         with urllib.request.urlopen(img_url) as f:
-            with open(img_path, 'w') as fp:
+            with open(img_path, 'wb') as fp:
                 fp.write(f.read())
 
 main()
