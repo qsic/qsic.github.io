@@ -10,8 +10,6 @@
                 </a>
               </li>
               <li>© 2014 QSIC</li>
-              <li><a href="/about#directions">Directions</a></li>
-              <li><a href="#">Donate</a></li>
             </ul>
           </div>
         </div>
@@ -21,8 +19,6 @@
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/vendor/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/foundation.min.js"></script>
-<script src="//cdn.ravenjs.com/1.1.16/jquery,native/raven.min.js"></script>
-<script>Raven.config('//e92ff3ac19cd4d89945f1b5e428f061d@app.getsentry.com/34299').install();</script>
 <script>
   $(document).foundation();
 </script>
