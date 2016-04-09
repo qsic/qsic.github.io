@@ -11,7 +11,7 @@ def get_files():
                 continue
             yield root + '/' + file_
 
-string = 'http://qsic-data.s3.amazonaws.com'
+string = '//qsic-data.s3.amazonaws.com'
 
 def update_file(file_):
     with open(file_) as fp:
